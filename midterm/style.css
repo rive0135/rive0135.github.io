@@ -2,4 +2,92 @@ body {
     background-color: #aad4cf;
     font-family: sans-serif;
     font-size: 16px;
+    margin: 0 auto;
+}
+/*  Div Banner/Header   */
+
+.headerContent {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.headerTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Navigation Bar */
+
+.bannerImg {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;   
+}
+
+.navlist{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 14px 16px;
+    /* background-color: aqua; */
+    font-size: larger;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*  Div Wrapper  */
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color:rgba(255, 255, 255, 0.4)
+}
+
+/* Section Contents */
+
+section{
+    padding: 1rem;
+}
+
+/* Main Content/Profile */
+
+main {
+    padding: 1rem;
+    margin:0 auto;
+}
+
+
+
+/* Contacts Border/Contents */
+
+.border {
+    border: 1px black;
+    border-style: solid;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Send Button */
+
+.button {
+    background-color:rgba(255, 255, 255, 0.1);
+    border: 1px black;
+    border-style: solid;
+    padding: .5rem;
+    
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2rem;
+    font-weight: bold;
 }
