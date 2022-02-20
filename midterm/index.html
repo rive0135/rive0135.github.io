@@ -46,33 +46,42 @@
     <section>
         <h2>Contact to learn more</h2>
     <!--Contact box-->
-        <div class="contacts">
-            <form action="index.html" method="get">
-            <!--Your Name-->
-                <label for="fullname"><h3>Your Name</h3></label>
-                <input id="fullname">
-            <!--Your Email-->
-                <label for="email"><h3>Your Email</h3></label>
-                <input id="email">
-            <!--Your Message-->
-                <label for="message"><h3>Message</h3></label>
-                <input id="message">
-            </form>
-        </div>
-        <div>
-            <h2>Would you like to visit the starfish?</h2>
-            <!--Yes-->
-            <label for="yes">Yes</label>
-            <input type="checkbox" id="yes" name="yes">
-            <!--No-->
-            <label for="no">No</label>
-            <input type="checkbox" id="no" name="no">
-            <!--Maybe-->
-            <label for="maybe">Maybe</label>
-            <input type="checkbox" id="maybe" name="maybe">
-        </div>
-        <div>
-            <button>SEND</button>
+        <div class="border">
+            <div class="contacts">
+                <form action="index.html" method="get">
+                    <div class="formName">
+                    <!--Your Name-->
+                        <label for="fullname">Your Name</label>
+                        <input id="fullname">
+                    </div>
+                    <div class="formEmail">
+                    <!--Your Email-->
+                        <label for="email">Your Email</label>
+                        <input id="email">
+                    </div>
+                    <!--Your Message-->
+                    <div class="formMessage">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="80" rows="10"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div>
+                <h2>Would you like to visit the starfish?</h2>
+                <!--Yes-->
+                <label for="yes">Yes</label>
+                <input type="radio" id="yes" name="yes">
+                <!--No-->
+                <label for="no">No</label>
+                <input type="radio" id="no" name="no">
+                <!--Maybe-->
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="maybe" name="maybe">
+            </div>
+            <!--Send Button-->
+            <div>
+                <button>SEND</button>
+            </div>
         </div>
     </section>
     <!--Footer-->
