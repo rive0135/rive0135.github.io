@@ -1,9 +1,21 @@
+* {
+    margin: 0%;
+}
+
 body {
     background-color: #aad4cf;
     font-family: sans-serif;
-    font-size: 16px;
-    margin: 0 auto;
+    font-size: 18px;
+    font-weight: bold;
 }
+
+/*  Div Wrapper  */
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color:rgba(255, 255, 255, 0.4)
+}
+
 /*  Div Banner/Header   */
 
 .headerContent {
@@ -19,34 +31,40 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/* Starfist profile/Contents */
+
+.profile img{
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-right: 1rem;
+}
+
 /* Navigation Bar */
 
 .bannerImg {
     display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;   
+    justify-content: space-evenly;   
 }
 
-.navlist{
+nav ul{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    margin: 0 auto;
-    padding: 14px 16px;
     /* background-color: aqua; */
     font-size: larger;
 }
 
-li a{
-    text-decoration: none;
-    color: black;
+nav li:nth-child(2) {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-/*  Div Wrapper  */
-.wrapper {
-    max-width: 1024px;
-    margin: 0 auto;
-    background-color:rgba(255, 255, 255, 0.4)
+nav li a{
+    text-decoration: none;
+    color: black;
 }
 
 /* Section Contents */
@@ -59,18 +77,28 @@ section{
 
 main {
     padding: 1rem;
-    margin:0 auto;
 }
 
+h2 {
+    padding-bottom: .5rem;
+}
 
-
-/* Contacts Border/Contents */
+/* Contacts Border/Contents/Form */
 
 .border {
     border: 1px black;
     border-style: solid;
-    margin: 0 auto;
     padding: 1rem;
+}
+
+/* Forms */
+
+.contacts div{
+    padding: 8px;
+}
+
+.contacts input, textarea {
+    width: 100%;
 }
 
 /* Send Button */
@@ -80,7 +108,6 @@ main {
     border: 1px black;
     border-style: solid;
     padding: .5rem;
-    
 }
 
 /* Footer */
