@@ -111,9 +111,15 @@ h2 {
     padding: .5rem;
 }
 
-.contacts input, textarea {
+.contacts textarea {
     width: 100%;
     padding-bottom: 16px;
+}
+
+.contacts input{
+    padding: 12px;
+    width: 97.5%;
+    margin:0px ;
 }
 
 /* Send Button */
@@ -131,6 +137,12 @@ h2 {
     border-style: solid;
     padding: .5rem;
     cursor: pointer;
+}
+
+.button:hover{
+    background-color: #aad4cf;
+    color:white;
+    transition: 0.3s;
 }
 
 /* Footer */
