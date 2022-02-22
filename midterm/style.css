@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 * {
     margin: 0%;
@@ -9,7 +9,11 @@ body {
     font-family: Roboto; 
     font-size: 18px;
     line-height: 125%;
-    font-weight: bolder;
+    font-weight: bold;
+}
+
+h2, h3 {
+    padding-bottom: .5rem;
 }
 
 /*  Div Wrapper  */
@@ -109,16 +113,20 @@ h2 {
 
 .contacts input, textarea {
     width: 100%;
+    padding-bottom: 16px;
 }
 
 /* Send Button */
 
 .sendButton {
     padding-top: 1rem;
+
 }
 
+/* RGBA Alpha channel opacity set to 0 */
+
 .button {
-    background-color:rgba(255, 255, 255, 0.1);
+    background-color:rgba(255, 255, 255, 0);
     border: 1px black;
     border-style: solid;
     padding: .5rem;
@@ -129,5 +137,4 @@ h2 {
 footer{
     text-align: end;   
     padding: 2rem;
-    font-weight: bold;
 }
