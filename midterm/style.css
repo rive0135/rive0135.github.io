@@ -51,15 +51,10 @@ nav ul{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    margin: 0 auto;
+    padding: 1rem;
     /* background-color: aqua; */
     font-size: larger;
-}
-
-nav li:nth-child(2) {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 nav li a{
@@ -80,7 +75,8 @@ main {
 }
 
 h2 {
-    padding-bottom: .5rem;
+    padding-bottom: .5rem
+;
 }
 
 /* Contacts Border/Contents/Form */
@@ -94,7 +90,7 @@ h2 {
 /* Forms */
 
 .contacts div{
-    padding: 8px;
+    padding: .5rem;
 }
 
 .contacts input, textarea {
@@ -113,8 +109,7 @@ h2 {
 /* Footer */
 
 footer{
-    display: flex;
-    justify-content: flex-end;
+    text-align: end;   
     padding: 2rem;
     font-weight: bold;
 }
