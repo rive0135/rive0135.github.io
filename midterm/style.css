@@ -32,40 +32,43 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/* Starfist profile/Contents */
-
-.profile img{
-    width: 30%;
-    height: auto;
-    float: left;
-    padding-right: 1rem;
-}
-
 /* Navigation Bar */
-
-.bannerImg {
-    display: flex;
-    justify-content: space-evenly;   
-}
 
 nav ul{
     list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0%;
+    font-size: 28px;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
     padding: 1rem;
-    font-size: 24px;
+    margin: 0%;
+    border-right: 1px solid black;
+    width: 29%;
+}
+
+/* nth-child removes border on third list */
+
+nav li:nth-child(3){
+    border-right: none;
 }
 
 nav li a{
     text-decoration: none;
     color: black;
-    border-right: 1px solid black;
     padding: 1rem;
 }
 
-nav li :nth-child(3){
-    border-right: none;
+/* Starfist profile/Contents */
+
+.profile img{
+    width: 25%;
+    height: auto;
+    float: left;
+    padding-right: 1rem;
 }
 
 /* Section Contents */
