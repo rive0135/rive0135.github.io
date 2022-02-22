@@ -1,0 +1,59 @@
+/* Open Sans Font: Regular 400, Bold 700 */
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Desktop Media Queries */
+
+/* Navigation Bar Settings */
+
+nav {
+    background-color: #222;
+}
+
+nav div{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: Open Sans Regular;
+    color: #c78c06;
+    padding: 16px 20px;
+    transition: ease-in-out .3s;
+}
+
+nav a:hover{
+    background-color: #c78c06;
+    color: #222;
+}
+
+/* Seach Bar */
+
+nav input {
+    padding: 12px 18px;
+    cursor: text;
+}
+
+nav button{
+    border: 1px solid #c78c06;
+    background-color: #222;
+    color: #c78c06;
+    text-align: center;
+    padding: 12px;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+}
+
+nav button:hover{
+    background-color: #c78c06;
+    color: #222;
+}
+
+/* Navigation Bar Settings End */
