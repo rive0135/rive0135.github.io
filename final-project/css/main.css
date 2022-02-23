@@ -7,11 +7,23 @@
 
 /* Desktop Media Queries */
 
+@media screen and (min-width: 1200px){
+    
+
+
 /* Navigation Bar Settings */
+
+.navbar {
+    padding: 2rem;
+}
+
+.navbar img{
+    padding-right: 2rem;
+}
 
 nav {
     background-color: #222;
-}
+}    
 
 nav div{
     display: flex;
@@ -25,7 +37,7 @@ nav a{
     text-decoration: none;
     font-family: Open Sans Regular;
     color: #c78c06;
-    padding: 16px 20px;
+    padding: 1rem 1.5rem;
     transition: ease-in-out .3s;
 }
 
