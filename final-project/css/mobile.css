@@ -1,24 +1,15 @@
-/* Open Sans Font: Regular 400, Bold 700 */
+/* Media Query Mobile */
 
-* {
-    padding: 0%;
-    margin: 0%;
-}
-
-/* Desktop Media Queries */
-
-@media screen and (min-width: 1200px){
-    
+@media screen and (max-width: 1200px){
 
 
 /* Navigation Bar Settings */
 
-.navbar {
-    padding: 2rem;
-}
-
-.navbar img{
-    padding-right: 2rem;
+.navLogo {
+    display: flex;
+    align-items: flex-start;
+    background-color: #c78c06;
+    width: 90%;
 }
 
 nav {
@@ -28,9 +19,8 @@ nav {
 nav div{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    padding: 1rem;
 }
 
 nav a{
@@ -38,6 +28,8 @@ nav a{
     font-family: Open Sans Regular;
     color: #c78c06;
     padding: 1rem 1.5rem;
+    text-align: center;
+    max-width: min-content;
     transition: ease-in-out .3s;
 }
 
