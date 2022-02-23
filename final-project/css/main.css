@@ -70,17 +70,37 @@ nav button:hover{
 
 @media screen and (max-width:760px)
     {
+
+.navbar{
+    padding: 3rem;
+    margin: 0;
+}
+
 nav div{
     display: flex;
     flex-direction: column;
+    margin: 0%;
+    max-width: 100%;
 }
 
 .navLogo {
     background-color: #c78c06;
-    width: 90%;
+    width: 100%;
 }
 
+nav a{
+    text-align: center;
+    width: 100%;
+}
 
+nav form{
+    display: flex;
+    flex-direction: row;
+}
+
+nav input{
+    width: 100%;
+}
 
 }
 /* Media Queries Desktop End */
