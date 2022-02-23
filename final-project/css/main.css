@@ -73,8 +73,6 @@ nav button:hover{
 nav div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .navLogo {
