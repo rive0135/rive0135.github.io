@@ -7,10 +7,6 @@
 
 /* Desktop Media Queries */
 
-@media screen and (min-width: 1200px){
-    
-
-
 /* Navigation Bar Settings */
 
 .navbar {
@@ -69,4 +65,24 @@ nav button:hover{
 }
 
 /* Navigation Bar Settings End */
+
+/* Media Queries Desktop Start */
+
+@media screen and (max-width:760px)
+    {
+nav div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.navLogo {
+    background-color: #c78c06;
+    width: 90%;
+}
+
+
+
+}
+/* Media Queries Desktop End */
