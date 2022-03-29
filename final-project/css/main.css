@@ -6,6 +6,11 @@
     margin: 0%;
 }
 
+.wrapper {
+    max-width: 1024px;
+    margin: auto;
+}
+
 /* Desktop Media Queries */
 
 /* Navigation Bar Settings */
@@ -29,7 +34,7 @@ nav div{
     align-items: center;
     padding: 1rem;
 }
-
+/* Nav Animation */
 nav a{
     text-decoration: none;
     font-family: Open Sans Regular;
