@@ -8,6 +8,10 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 .wrapper {
     max-width: 1200px;
     margin: auto;
@@ -28,7 +32,7 @@ nav {
     width: 100%;
     padding: 1rem;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 
@@ -86,6 +90,43 @@ nav button:hover{
     background-color: #c78c06;
     color: #222;
 }
+
+/* Main Banner settings */
+
+/* Use flexbox for text over image or grid */
+
+/* Position absolute makes text over image */
+
+/* Align banner contents properly */
+
+header section{
+    display: flex;
+    align-content: center;
+}
+
+.banner-frame{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 50%);
+    padding:1rem
+}
+
+.banner-frame h1,p{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* Connect with us button settings */
+
+.connect-button a{
+    padding: 1rem;
+    background-color: #c78c06;
+    text-decoration: none;
+    color: #222;
+}
+
+/* rgba for black frame for text over main image banner */
 
 
 
