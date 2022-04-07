@@ -22,19 +22,18 @@ nav {
     padding: 1rem;
 }
 
-/* nav ul {
-    width: 100%;
-} */
+/* Replaced list with div with a class of page for nav pages */
 
-li{
-    list-style-type: none;
-    text-align: center;
+.page a{
+    width: 100%;
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav a{
     text-decoration: none;
-    background-color:rgba(45, 154, 255, 0.744);
     color: #c78c06;
     padding: 1rem;
     transition: 0.3s;
@@ -52,7 +51,6 @@ nav a{
 /* Redo nav button animation */
 
 nav a:hover{
-    width: 100%;
     background-color: #c78c06;
     color: #222;
 }
@@ -89,7 +87,7 @@ nav button:hover{
     color: #222;
 }
 
-/* add active navigation bar and hover bar */
+
 
 /* @media screen and (min-width: 760px){
     .navPages ul{
