@@ -6,11 +6,12 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: larger;
 }
 
-img{
+/* img{
     max-width: 100%;
-}
+} */
 
 .wrapper {
     max-width: 1200px;
@@ -99,9 +100,15 @@ nav button:hover{
 
 /* Align banner contents properly */
 
-header section{
+.site-banner{
     display: flex;
     align-content: center;
+}
+
+/* Site banner image */
+
+.site-banner img{
+    width: 100%;
 }
 
 .banner-content{
@@ -109,12 +116,8 @@ header section{
     flex-direction: column;
     position: absolute;
     background-color: rgba(0, 0, 0, 50%);
-    padding:1rem
-}
-
-.banner-content h1,p{
+    padding:1rem;
     color: white;
-    margin-bottom: 1rem;
 }
 
 /* Connect with us button settings */
@@ -127,6 +130,26 @@ header section{
 }
 
 /* rgba for black frame for text over main image banner */
+
+/* layout rough css for most content */
+
+/* About Us content settings */
+
+.about-us{
+    background-color: #ffe6ac;
+    padding: 1rem;
+}
+
+.about-us img{
+    width: 100%;
+}
+
+.about-us p{
+    margin-top: 1rem;
+}
+
+/* Our services content settings */
+
 
 
 
