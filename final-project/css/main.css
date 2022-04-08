@@ -9,9 +9,13 @@ body {
     font-size: larger;
 }
 
-/* img{
+iframe{
+    width: 100%;
+}
+
+img{
     max-width: 100%;
-} */
+}
 
 .wrapper {
     max-width: 1200px;
@@ -150,8 +154,70 @@ nav button:hover{
 
 /* Our services content settings */
 
+.services img{
+    width: 100%;
+}
+
+.services h1,h2{
+    padding: 1rem;
+}
+
+.service p,a{
+    padding: 1rem;
+}
+
+.service{
+    background-color: #ffe6ac;
+}
+
+/* Service Button */
+
+.service-button a{
+    text-decoration: none;
+    color: white;
+    background-color: #222;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+/* Our Team content settings */
+
+.ceo img{
+    width: 100%;
+}
+
+.ceo{
+    background-color: #ffe6ac;
+}
+
+.ceo-content{
+    padding: 1rem;
+}
+
+.ceo p{
+    border-top: #c78c06 2px;
+}
 
 
+/* Form settings */
+
+/* Table contents settings */
+
+/* Footer */
+
+footer{
+    background-color: #222;
+    color:#c78c06;
+    padding: 1rem;
+}
+
+footer p{
+    padding-top: 1rem;
+}
+
+footer a{
+    color: #c78c06;    
+}
 
 /* @media screen and (min-width: 760px){
     .navPages ul{
