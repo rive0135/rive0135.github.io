@@ -124,10 +124,15 @@ nav button:hover{
     color: white;
 }
 
+.banner-description{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
 /* Connect with us button settings */
 
 .connect-button a{
-    padding: 1rem;
+    padding: 2rem;
     background-color: #c78c06;
     text-decoration: none;
     color: #222;
@@ -199,7 +204,11 @@ nav button:hover{
 }
 
 
-/* Form settings */
+/* Form/Contact settings */
+
+.contact-form{
+    padding: 1rem;
+}
 
 /* Table contents settings */
 
