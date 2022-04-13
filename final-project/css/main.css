@@ -15,9 +15,9 @@ iframe{
     width: 100%;
 }
 
-img{
+/* img{
     max-width: 100%;
-}
+} */
 
 h2{
     margin-top: 1rem;
@@ -45,6 +45,10 @@ h1{
 
 nav {
     background-color: #222;
+}
+
+nav img{
+    max-width: 100%;
 }
 
 /* Replaced list with div with a class of page for nav pages */
