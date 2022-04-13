@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
+/* DO NOT TOUCH */
+
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: larger;
 }
 
 iframe{
@@ -17,8 +18,21 @@ img{
     max-width: 100%;
 }
 
+h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* DO NOT TOUCH */
+
 .wrapper {
     max-width: 1200px;
+    padding: 1rem;
     margin: auto;
 }
 
@@ -28,7 +42,6 @@ img{
 
 nav {
     background-color: #222;
-    padding: 1rem;
 }
 
 /* Replaced list with div with a class of page for nav pages */
@@ -68,7 +81,7 @@ nav a:hover{
 
 /* try adding flexbox in form to wrap the input and button together */
 
-form{
+.navPages form{
     display: flex;
     flex-wrap: nowrap;
 }
@@ -104,14 +117,14 @@ nav button:hover{
 
 /* Align banner contents properly */
 
-.site-banner{
+/* .site-banner{
     display: flex;
     align-content: center;
-}
+} */
 
 /* Site banner image */
 
-.site-banner img{
+/* .site-banner img{
     width: 100%;
 }
 
@@ -127,16 +140,16 @@ nav button:hover{
 .banner-description{
     margin-bottom: 3rem;
     margin-top: 1rem;
-}
+} */
 
 /* Connect with us button settings */
 
-.connect-button a{
+/* .connect-button a{
     padding: 2rem;
     background-color: #c78c06;
     text-decoration: none;
     color: #222;
-}
+} */
 
 /* rgba for black frame for text over main image banner */
 
@@ -144,7 +157,7 @@ nav button:hover{
 
 /* About Us content settings */
 
-.about-us{
+/* .about-us{
     background-color: #ffe6ac;
     padding: 1rem;
 }
@@ -155,11 +168,11 @@ nav button:hover{
 
 .about-us p{
     margin-top: 1rem;
-}
+} */
 
 /* Our services content settings */
 
-.services img{
+/* .services img{
     width: 100%;
 }
 
@@ -173,11 +186,11 @@ nav button:hover{
 
 .service{
     background-color: #ffe6ac;
-}
+} */
 
 /* Service Button */
 
-.service-button a{
+/* .service-button a{
     text-decoration: none;
     color: white;
     background-color: #222;
@@ -187,7 +200,7 @@ nav button:hover{
 
 /* Our Team content settings */
 
-.ceo img{
+/* .ceo img{
     width: 100%;
 }
 
@@ -201,23 +214,75 @@ nav button:hover{
 
 .ceo p{
     border-top: #c78c06 2px;
+}  */
+
+
+/* Contact Section Form Settings */
+
+/* Contact Section Container */
+
+.contact-section input{
+    width: 100%;
+    padding: 8px;
 }
 
+.contact-section textarea{
+    width: 100%;
+    padding: 8px;
+}
 
-/* Form/Contact settings */
+/* form{
+    padding-top: 8px;
+    padding-bottom: 8px;
+} */
 
-.contact-form{
+/* Send Button settings used div instead of button */
+/* Margin top and bottom prevents the button to overlap on top of forms */
+.send{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.send a{
+    text-decoration: none;
+    color: #c78c06;
+    background-color: #222;
+    padding: 8px;
+    transition: .3s;
+    border: 1px solid #222;
+}
+
+/* Send hover animation */
+.send a:hover{
+    color: #222;
+    background-color: #c78c06;
+    border: 1px solid #222;
+}
+
+/* Contact Section Table Settings */
+
+/* Border collapes removes spacing */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th{
+    border: 1px solid;
+    padding: 1rem;
+    background-color: #ffe6ac;
+}
+
+table td{
+    border: 1px solid;
     padding: 1rem;
 }
-
-/* Table contents settings */
 
 /* Footer */
 
 footer{
     background-color: #222;
     color:#c78c06;
-    padding: 1rem;
 }
 
 footer p{
