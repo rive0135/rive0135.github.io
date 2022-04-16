@@ -161,6 +161,37 @@ nav button:hover{
     margin-bottom: 1rem;
 }
 
+/* Services Section Settings */
+
+.services img{
+    width: 100%;
+}
+
+.service p, h2{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.service{
+    background-color: #ffe6ac;
+    padding-bottom: 3rem;
+}
+
+/* Service Button Settings */
+
+.service-button{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.service-button a{
+    text-decoration: none;
+    background-color: #222;
+    color: white;
+    padding: 2rem;
+}
+
 /* Our services content settings */
 
 /* Our Vision Section Settings */
