@@ -178,7 +178,7 @@ nav button:hover{
 
 /* Images seemed cropped */
 .our-vision{
-    background-color: #222;
+    /* background-color: #222; */
     padding-bottom: 3rem;
     /* Temporarily fixed the cropped image issue on the original mockup will do the same to banner */
     background-image: url(/images/vision.jpg);
@@ -244,13 +244,14 @@ nav button:hover{
 .contact-section input{
     width: 100%;
     padding: 8px;
+    margin-top: 6px;
 }
 
 .contact-section textarea{
     width: 100%;
     padding: 8px;
+    margin-top: 6px;
 }
-
 /* form{
     padding-top: 8px;
     padding-bottom: 8px;
