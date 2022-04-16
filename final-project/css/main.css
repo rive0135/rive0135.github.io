@@ -176,6 +176,43 @@ nav button:hover{
 
 /* Our Vision Section Settings */
 
+/* Images seemed cropped */
+.our-vision{
+    background-color: #222;
+    padding-bottom: 3rem;
+    /* Temporarily fixed the cropped image issue on the original mockup will do the same to banner */
+    background-image: url(/images/vision.jpg);
+    background-position: 50% 50%;
+    /* Problem Solved for image will be using this on banner too */
+    /* Note to self do not use position absolute to put text on top of image */
+    background-size:cover;
+}
+
+.our-vision img{
+    width: 100%;
+}
+
+/* Our Vision Description Settings */
+
+.our-vision .description{
+    /* position: absolute; */
+    color: white;  
+}
+
+/* Our Vision Button Settings */
+
+.vision-button{
+    margin-top: 3rem;
+}
+
+.vision-button a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 50%);
+    padding: 2rem;
+    border: 2px solid #c78c06;
+}
+
 /* Team Section Settings */
 
 .ceo{
