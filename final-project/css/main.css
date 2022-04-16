@@ -39,6 +39,8 @@ h1{
     margin: auto;
 }
 
+/* DO NOT TOUCH WHAT'S ABOVE */
+
 /* Navigation Bar Settings */
 
 /* Revisit list navbar settings needs improvement and polishing */
@@ -216,6 +218,28 @@ nav button:hover{
     border-top: #c78c06 2px;
 }  */
 
+/* Team Section Settings */
+
+.ceo{
+    background-color: #ffe6ac;
+}
+
+.ceo img{
+    width: 100%;
+}
+
+.ceo-content{
+    padding: 1rem;
+}
+
+.ceo h3{
+    border-bottom: 3px solid #c78c06;
+    margin-bottom: 1rem;
+}
+
+.ceo p{
+    margin-bottom: 1rem;
+}
 
 /* Contact Section Form Settings */
 
