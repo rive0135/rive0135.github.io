@@ -113,9 +113,53 @@ nav button{
 nav button:hover{
     background-color: #c78c06;
     color: #222;
+
 }
 
 /* Main Banner settings */
+
+/* .site-banner{
+    background-color: #222;
+    background-image: url(/images/main-banner.jpg);
+    background-position: 50% 50%;
+    background-size: 125%;
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+} */
+
+/* Banner Description */
+
+/* .banner-content{
+    background-color:rgba(0, 0, 0, 75%) ;
+    position: absolute;
+    width: 100%;
+}
+
+.connect-button{
+    margin-top: 3rem;
+}
+
+.connect-button a{
+    text-decoration: none;
+    color: #222;
+    background-color: #c78c06;
+    padding: 2rem;
+} */
+
+/* About Us Section Settings */
+
+.about-us{
+    background-color: #ffe6ac;
+}
+
+.about-us img{
+    width: 100%;
+}
+
+.about-us p{
+    margin-bottom: 1rem;
+}
 
 /* Our services content settings */
 
