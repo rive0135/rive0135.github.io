@@ -119,21 +119,21 @@ nav button:hover{
 
 /* Main Banner settings */
 
-/* .site-banner{
+.site-banner{
     background-color: #222;
     background-image: url(/images/main-banner.jpg);
-    background-position: 50% 50%;
-    background-size: 125%;
+    background-position: 40% 60%;
+    background-size: 100%;
     color: white;
     padding-top: 6rem;
     padding-bottom: 6rem;
-} */
+}
 
 /* Banner Description */
 
-/* .banner-content{
-    background-color:rgba(0, 0, 0, 75%) ;
-    position: absolute;
+.site-banner .wrapper{
+    background-color:rgba(0, 0, 0, 60%);
+    padding-bottom: 3rem;
     width: 100%;
 }
 
@@ -146,7 +146,7 @@ nav button:hover{
     color: #222;
     background-color: #c78c06;
     padding: 2rem;
-} */
+}
 
 /* About Us Section Settings */
 
