@@ -118,7 +118,7 @@ nav button:hover{
 
 .site-banner{
     background-color: #222;
-    /* background-image: url(/images/main-banner.jpg); */
+    background-image: url(/images/main-banner.jpg);
     background-position: 40% 60%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -209,7 +209,7 @@ nav button:hover{
     /* background-color: #222; */
     padding-bottom: 3rem;
     /* Temporarily fixed the cropped image issue on the original mockup will do the same to banner */
-    /* background-image: url(/images/vision.jpg); */
+    background-image: url(/images/vision.jpg);
     background-position: 50% 50%;
     /* Problem Solved for image will be using this on banner too */
     /* Note to self do not use position absolute to put text on top of image */
@@ -223,7 +223,6 @@ nav button:hover{
 /* Our Vision Description Settings */
 
 .our-vision .description{
-    /* position: absolute; */
     color: white;  
 }
 
