@@ -367,6 +367,56 @@ footer a{
     
     /* Services Settings */
     /* Note to self row is vertical and column is horizontal */
+    .services .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        /* grid-template-rows:1fr 1fr 1fr; */
+        grid-gap: 1rem;
+    }
+
+    .services .h1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    /* Digital Transformation */
+    .services .service:nth-child(2){
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    /* Marketing */
+    .services .service:nth-child(3){
+        grid-column-start: 4;
+        grid-column-end: 7;
+    }
+    
+    /* Video Production */
+    .services .service:nth-child(4){
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    /* Web Developement */
+    .services .service:nth-child(5){
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    /* Print */
+    .services .service:nth-child(6){
+        grid-row-start: 3;
+        grid-row-end: 3;
+        grid-column-start: 5;
+        grid-column-end: 7;
+    }
+
+    /* Services Settings */
+    /* Note to self row is vertical and column is horizontal */
     .our-team .ceo{
         display: grid;
         grid-template-columns: 1fr 1fr;
