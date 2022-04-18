@@ -239,6 +239,10 @@ nav button:hover{
     background-color: #ffe6ac;
 }
 
+.ceo:nth-child(2){
+    margin-bottom: 1rem;
+}
+
 .ceo img{
     width: 100%;
 }
@@ -363,9 +367,22 @@ footer a{
     
     /* Services Settings */
     /* Note to self row is vertical and column is horizontal */
+    .our-team .ceo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .our-team .ceo:nth-child(2){
+        margin-bottom: 0%;
+    }
+
+    /* .our-team .ceo:nth-child(3){
+        
+    } */
 
     /* Our Team Settings */
     /* Note to self row is vertical and column is horizontal */
+
 
     /* Contact Settings */
     /* Note to self row is vertical and column is horizontal */
