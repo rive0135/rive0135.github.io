@@ -414,9 +414,10 @@ footer a{
         grid-column-start: 5;
         grid-column-end: 7;
     }
-
-    /* Services Settings */
+    
+    /* Our Team Settings */
     /* Note to self row is vertical and column is horizontal */
+
     .our-team .ceo{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -430,22 +431,25 @@ footer a{
         
     } */
 
-    /* Our Team Settings */
-    /* Note to self row is vertical and column is horizontal */
-
-
     /* Contact Settings */
     /* Note to self row is vertical and column is horizontal */
  
 
-    /* .contact-section .wrapper{
+    .contact-section .wrapper{
         display: grid;
+        grid-gap: 1rem;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        /* grid-template-rows: 1fr 1fr; */
     }
 
-    .contact-section .location:nth-child(2){
-        grid-row-start: 1;
-        grid-row-end: 2;
-    } */
+    .location{
+        grid-row-start:1;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+    .operation{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 }
