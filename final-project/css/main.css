@@ -114,7 +114,6 @@ nav button{
 nav button:hover{
     background-color: #c78c06;
     color: #222;
-
 }
 
 /* Main Banner settings */
@@ -147,6 +146,12 @@ nav button:hover{
     color: #222;
     background-color: #c78c06;
     padding: 2rem;
+    transition: .3s;
+}
+
+.connect-button a:hover{
+    background-color: #222;
+    color: white;
 }
 
 /* About Us Section Settings */
@@ -192,6 +197,12 @@ nav button:hover{
     background-color: #222;
     color: white;
     padding: 2rem;
+    transition: .3s;
+}
+
+.service-button a:hover{
+    background-color: #c78c06;
+    color: #222;
 }
 
 /* Our services content settings */
@@ -233,6 +244,12 @@ nav button:hover{
     background-color: rgba(0, 0, 0, 50%);
     padding: 2rem;
     border: 2px solid #c78c06;
+    transition: .3s;
+}
+
+.vision-button a:hover{
+    background-color: #c78c06;
+    color: #222;
 }
 
 /* Team Section Settings */
