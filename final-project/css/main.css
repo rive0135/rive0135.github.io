@@ -353,7 +353,32 @@ footer a{
     }
     
     /* About Us Settings */
+    /* Note to self row is vertical and column is horizontal */
+
+    .about-us .wrapper{
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
     
     /* Services Settings */
+    /* Note to self row is vertical and column is horizontal */
 
+    /* Our Team Settings */
+    /* Note to self row is vertical and column is horizontal */
+
+    /* Contact Settings */
+    /* Note to self row is vertical and column is horizontal */
+ 
+
+    /* .contact-section .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .contact-section .location:nth-child(2){
+        grid-row-start: 1;
+        grid-row-end: 2;
+    } */
 }
