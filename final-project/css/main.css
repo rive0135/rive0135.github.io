@@ -15,9 +15,9 @@ iframe{
     width: 100%;
 }
 
-/* img{
-    max-width: 100%;
-} */
+i{
+    margin-left: 6px;
+}
 
 h2{
     margin-top: 1rem;
@@ -30,8 +30,6 @@ h1{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-
-/* Font size has been set to 1.5em for some reason */
 
 .wrapper {
     max-width: 1200px;
@@ -187,9 +185,8 @@ nav button:hover{
 /* Service Button Settings */
 
 .service-button{
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 .service-button a{
@@ -204,8 +201,6 @@ nav button:hover{
     background-color: #c78c06;
     color: #222;
 }
-
-/* Our services content settings */
 
 /* Our Vision Section Settings */
 
@@ -387,9 +382,18 @@ footer a{
         grid-gap: 1rem;
     }
 
+    .service-button a{
+        display: flex;
+        justify-content: center;
+    }
+
     .services .h1{
         grid-column-start: 1;
         grid-column-end: 3;
+    }
+
+    .service-button{
+        width: 100%;
     }
 
     /* Digital Transformation */
